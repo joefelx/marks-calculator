@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>12th Marks Calculator</title>
+</head>
+<body class="resultBody">
+    <div class="container-result">
+        <table>
+                <tr>
+                    <th>Subjects</th>
+                    <th>10th <br><p>50%</p></th>
+                    <th>11th <br><p>20%</p></th>
+                    <th>12th <br><p>30%</p></th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>Tamil</td>
+                    <td><%= tenMark %> </td>
+                    <td><%= eleTamil %> </td>
+                    <td><%= tweTamil %> </td>
+                    <td><%= tTamil %> </td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td><%= tenMark %> </td>
+                    <td><%= eleEnglish %> </td>
+                    <td><%= tweEnglish %> </td>
+                    <td><%= tEnglish %> </td>
+                </tr>
+                <tr>
+                    <td>Commerce</td>
+                    <td><%= tenMark %> </td>
+                    <td><%= eleCommerce %> </td>
+                    <td><%= tweCommerce %> </td>
+                    <td><%= tCommerce %> </td>
+                </tr>
+                <tr>
+                    <td>Computer Application</td>
+                    <td><%= tenMark %> </td>
+                    <td><%= eleCa %> </td>
+                    <td><%= tweCa %> </td>
+                    <td><%= tCa %> </td>
+                </tr>
+                <tr>
+                    <td>Accontancy</td>
+                    <td><%= tenMark %> </td>
+                    <td><%= eleAccontancy %> </td>
+                    <td><%= tweAccontancy %> </td>
+                    <td><%= tAccontancy %> </td>
+                </tr>
+                <tr>
+                    <td>Economics</td>
+                    <td><%= tenMark %> </td>
+                    <td><%= eleEconomics %> </td>
+                    <td><%= tweEconomics %> </td>
+                    <td><%= tEconomics %> </td>
+                </tr>
+                <tr class="total">
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><%= Total %> </td>
+                </tr>
+        </table>
+<%- include("partials/footer.ejs") %> 

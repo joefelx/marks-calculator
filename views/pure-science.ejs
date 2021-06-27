@@ -1,0 +1,74 @@
+<%-include("partials/header.ejs")  %> 
+    <div class="container">
+        <form action="/pure-science" method="POST">
+            <div class="tenth">
+                <h1>10th Marks</h1>
+                <h3>Highest Marks in any Three subjects.</h3>
+                <div class="tenInput">
+                    <label >Mark 1</label><br>
+                    <input type="text" name="tenMark1" autocomplete="off" placeholder="100"><br>
+                    <label >Mark 2</label><br>
+                    <input type="text" name="tenMark2" autocomplete="off" placeholder="100"><br>
+                    <label>Mark 3</label><br>
+                    <input type="text" name="tenMark3" autocomplete="off" placeholder="100"><br>
+                </div>     
+            </div>
+            <div class="eleventh">
+                <h1>11th Marks</h1>
+                <p>Submit Full Marks for 100 Marks.</p>
+                <div class="tamil-11th">
+                    <label>Tamil</label><br>
+                    <input type="text" name="eleventhTamil" autocomplete="off" placeholder="100">
+                </div>
+                <div class="english-11th">
+                    <label>English</label><br>
+                    <input type="text" name="eleventhEnglish" autocomplete="off" placeholder="100">
+                </div>
+                <div class="botany-11th">
+                    <label>Botany</label><br>
+                    <input type="text" name="eleventhBotany" autocomplete="off" placeholder="100">
+                </div>
+                <div class="physics-11th">
+                    <label>Physics</label><br>
+                    <input type="text" name="eleventhPhysics" autocomplete="off" placeholder="100">
+                </div>
+                <div class="chemistry-11th">
+                    <label>Chemistry</label><br>
+                    <input type="text" name="eleventhChemistry" autocomplete="off" placeholder="100">
+                </div>
+                <div class="zoology-11th">
+                    <label>Zoology</label><br>
+                    <input type="text" name="eleventhZoology" autocomplete="off" placeholder="100">
+                </div>
+            </div>
+            <div class="twelth">
+                <h1>12th Marks</h1>
+                <div class="tamil-12th">
+                    <label>Tamil Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthTamil" autocomplete="off">
+                </div>
+                <div class="english-12th">
+                    <label>English Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthEnglish" autocomplete="off">
+                </div>
+                <div class="zoology-12th">
+                    <label>Zoology Practical 30 Marks</label><br>
+                    <input type="text" name="twelthZoology" autocomplete="off">
+                </div>
+                <div class="physics-12th">
+                    <label>Physics Practical 30 Marks</label><br>
+                    <input type="text" name="twelthPhysics" autocomplete="off">
+                </div>
+                <div class="chemistry-12th">
+                    <label>Chemistry Practical 30 Marks</label><br>
+                    <input type="text" name="twelthChemistry" autocomplete="off">
+                </div>
+                <div class="botany-12th">
+                    <label>Botany Practical 30 Marks</label><br>
+                    <input type="text" name="twelthBotany" autocomplete="off">
+                </div>
+            </div>
+
+            <button type="submit">Get Marks</button>
+        </form>
+<%-include("partials/footer.ejs")  %> 

@@ -1,0 +1,74 @@
+<%-include("partials/header.ejs")  %> 
+    <div class="container">
+        <form action="/arts" method="POST">
+            <div class="tenth">
+                <h1>10th Marks</h1>
+                <h3>Highest Marks in any Three subjects.</h3>
+                <div class="tenInput">
+                    <label >Mark 1</label><br>
+                    <input type="text" name="tenMark1" autocomplete="off" placeholder="100"><br>
+                    <label >Mark 2</label><br>
+                    <input type="text" name="tenMark2" autocomplete="off" placeholder="100"><br>
+                    <label>Mark 3</label><br>
+                    <input type="text" name="tenMark3" autocomplete="off" placeholder="100"><br>
+                </div>     
+            </div>
+            <div class="eleventh">
+                <h1>11th Marks</h1>
+                <p>Submit Full Marks for 100 Marks.</p>
+                <div class="tamil-11th">
+                    <label>Tamil</label><br>
+                    <input type="text" name="eleventhTamil" autocomplete="off" placeholder="100">
+                </div>
+                <div class="english-11th">
+                    <label>English</label><br>
+                    <input type="text" name="eleventhEnglish" autocomplete="off" placeholder="100">
+                </div>
+                <div class="commerce-11th">
+                    <label>Commerce</label><br>
+                    <input type="text" name="eleventhCommerce" autocomplete="off" placeholder="100">
+                </div>
+                <div class="ca-11th">
+                    <label>Computer Application</label><br>
+                    <input type="text" name="eleventhCA" autocomplete="off" placeholder="100">
+                </div>
+                <div class="accontancy-11th">
+                    <label>Accontancy</label><br>
+                    <input type="text" name="eleventhAccontancy" autocomplete="off" placeholder="100">
+                </div>
+                <div class="economics-11th">
+                    <label>Economics</label><br>
+                    <input type="text" name="eleventhEconomics" autocomplete="off" placeholder="100">
+                </div>
+            </div>
+            <div class="twelth">
+                <h1>12th Marks</h1>
+                <div class="tamil-12th">
+                    <label>Tamil Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthTamil" autocomplete="off">
+                </div>
+                <div class="english-12th">
+                    <label>English Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthEnglish" autocomplete="off">
+                </div>
+                <div class="commerce-12th">
+                    <label>Commerce Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthCommerce" autocomplete="off">
+                </div>
+                <div class="accontancy-12th">
+                    <label>Accontancy Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthAccontancy" autocomplete="off">
+                </div>
+                <div class="economics-12th">
+                    <label>Economics Assessment 10 Marks</label><br>
+                    <input type="text" name="twelthEconomics" autocomplete="off">
+                </div>
+                <div class="ca-12th">
+                    <label>Computer Application Practical 30 Marks</label><br>
+                    <input type="text" name="twelthCA" autocomplete="off">
+                </div>
+            </div>
+
+            <button type="submit">Get Marks</button>
+        </form>
+        <%-include("partials/footer.ejs")  %> 

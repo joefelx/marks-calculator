@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap');
+
+/* colors #343A40 */
+/* 7952B3 */
+/* FFC107 */
+/* E1E8EB  */
+
+
+body{
+    margin: auto 10%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E1E8EB;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #343A40;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #FFC107;
+}
+
+.container-home{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 5px #7952B3;
+}
+
+.container-home h1{
+    color: #343A40;
+    text-shadow: 2px 2px #FFC107;
+}
+
+.container-home div{
+    padding: 10px;
+}
+
+/* BioCS Page */
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    background-color: #dbdbdb;
+}
+
+input{
+    height: 1.5rem;
+    width: 20rem;
+    margin: 5px auto;
+    border-top: 1.5px solid #FFC107;
+    border-bottom: 1.5px solid #FFC107;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input::placeholder{
+    color: #343A40;
+    font-size: 15px;
+    opacity: .25;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin-top: 30px;
+    background-color: #FFC107;
+    height: 2rem;
+    width: 75%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #343A40;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 3px;
+}
+
+button:hover{
+  background-color: #ffdd79;
+}
+
+
+footer{
+    position: relative;
+    top: 20px;
+}
+footer p{
+    font-size: 10px;
+}
+
+
+/* Result Page */
+
+.resultBody{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3px;
+    text-align: center;
+}
+
+.container-result{
+    width: 100vh;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #FFC107;
+    color: #343A40;
+}
+
+th p{
+    font-size: 13px;
+    opacity: .5;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+td{
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+th,td{
+    border-bottom: 1px solid #343A40;
+}
+
+.total{
+    background-color: #FFC107;
+    color: #343A40;
+}
+
+
+
+
+@media(max-width:768px) {
+
+    body{
+        margin: 0 5px;
+    }
+
+    .container{
+        margin: 0 2px;
+    }
+
+    .container-result{
+        width: 100%;
+    }
+}
