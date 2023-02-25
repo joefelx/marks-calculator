@@ -18,4 +18,4 @@ Marks Calculator is web app to calculate the Tamil Nadu Board 12th Marks.
  
  Link to the web app 
  
- https://frozen-falls-00387.herokuapp.com/
+ ~~https://frozen-falls-00387.herokuapp.com~~
